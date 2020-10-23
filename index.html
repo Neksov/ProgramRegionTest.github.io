@@ -1,297 +1,1 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="css/swiper.min.css" />
-  <link rel="stylesheet" href="css/animate.min.css" />
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="js/swiper.min.js" defer></script>
-  <script src="js/jquery.validate.min.js" defer></script>
-  <script src="js/jquery.mask.min.js" defer></script>
-  <script src="js/wow.min.js" defer></script>
-  <script src="js/buttonUp.min.js" defer></script>
-  <script src="js/script.min.js" defer></script>
-
-  <title>Recipe Box</title>
-</head>
-
-<body>
-  <main>
-    <div class="main">
-      <div class="container">
-        <div class="logo main__logo ">
-          <picture>
-            <source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="logo__img">
-          </picture>
-          <a href="index.html">
-            <div class="lable logo__lable wow flip
-            " data-wow-delay="0.4s">
-              <span class="lable__title">TastyCookery</span>
-              <span class="lable__text">Cook for real</span>
-            </div>
-          </a>
-        </div>
-        <h1 class="main__title wow bounceInLeft" data-wow-delay="0.4s">Домашние простые рецепты</h1>
-        <p class="main__text wow bounceInLeft" data-wow-delay="0.6s">Собирайте рецепты в recipe box</p>
-        <form action="#send" method="GET">
-          <button class="btn main__btn wow bounceIn" data-wow-delay="1s" type="submit"><span
-              class="uppercase">Присоединиться <br>к
-              сообществу</span></button>
-        </form>
-
-
-      </div>
-    </div>
-    <!-- /.main -->
-    <section class="info">
-      <div class="container">
-        <!-- Swiper-->
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide wow zoomIn" data-wow-delay="0.4s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info1.webp" type="image/webp"><img src="img/info1.png" alt="Рецепты"
-                    class="cardInfo__img"></picture>
-                <p class="cardInfo__text">Простые домашние<br> рецепты</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide swiper-slid-slide2 wow zoomIn" data-wow-delay="0.6s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info2.webp" type="image/webp"><img src="img/info2.png" alt="Рецепты"
-                    class="cardInfo__img cardInfo__img-info2"></picture>
-                <p class="cardInfo__text cardInfo__text-text2">Статьи о готовке</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide wow zoomIn" data-wow-delay="0.8s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info3.webp" type="image/webp"><img src="img/info3.png" alt="Рецепты"
-                    class="cardInfo__img cardInfo__img-info3"></picture>
-                <p class="cardInfo__text cardInfo__text-text3">Бесплатная книга рецептов<br> всем подписчикам</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide wow zoomIn" data-wow-delay="1s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info4.webp" type="image/webp"><img src="img/info4.png" alt="Рецепты"
-                    class="cardInfo__img"></picture>
-                <p class="cardInfo__text cardInfo__text-text4">Собирайте рецепты<br> в recipe box</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide wow zoomIn" data-wow-delay="1.2s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info5.webp" type="image/webp"><img src="img/info5.png" alt="Рецепты"
-                    class="cardInfo__img cardInfo__img-info5"></picture>
-                <p class="cardInfo__text cardInfo__text-text5">Печать рецептов</p>
-              </div>
-            </div>
-            <div class="swiper-slide wow zoomIn" data-wow-delay="1.4s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info4.webp" type="image/webp"><img src="img/info4.png" alt="Рецепты"
-                    class="cardInfo__img"></picture>
-                <p class="cardInfo__text cardInfo__text-text4">Собирайте рецепты<br> в recipe box</p>
-              </div>
-            </div>
-            <div class="swiper-slide wow zoomIn" data-wow-delay="1.6s">
-              <div class="cardInfo">
-                <picture>
-                  <source srcset="img/info5.webp" type="image/webp"><img src="img/info5.png" alt="Рецепты"
-                    class="cardInfo__img cardInfo__img-info5"></picture>
-                <p class="cardInfo__text cardInfo__text-text5">Печать рецептов</p>
-              </div>
-            </div>
-
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-        <!--/.info__slide -->
-
-      </div>
-    </section>
-    <!-- /.info -->
-    <section class="question">
-      <div class="container">
-        <h2 class="blockTitle">Почему круто быть с нами:</h2>
-        <!-- Swiper-->
-        <div class="swiper-container swiper-container-two">
-          <div class="swiper-wrapper swiper-wrapper-two">
-
-            <div class="swiper-slide wow zoomIn" data-wow-delay="0.6s">
-              <div class="cardQuestion">
-                <picture>
-                  <source srcset="img/question1.webp" type="image/webp"><img src="img/question1.png" alt="Рецепты"
-                    class="cardQuestion__img"></picture>
-                <p class="cardQuestion__text">Получать лучшие рецепты по разным категориям
-              </div>
-            </div>
-            <div class="swiper-slide wow zoomIn" data-wow-delay="0.8s">
-              <div class="cardQuestion">
-                <picture>
-                  <source srcset="img/question2.webp" type="image/webp"><img src="img/question2.png" alt="Рецепты"
-                    class="cardQuestion__img"></picture>
-                <p class="cardQuestion__text">Готовить без лишних усилий<br> и делать из каждого дня<br> не рутинный
-              </div>
-            </div>
-            <div class="swiper-slide wow zoomIn" data-wow-delay="1s">
-              <div class="cardQuestion">
-                <picture>
-                  <source srcset="img/question3.webp" type="image/webp"><img src="img/question3.png" alt="Рецепты"
-                    class="cardQuestion__img"></picture>
-                <p class="cardQuestion__text">Довольные<br>члены семьи
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <!-- /.question -->
-    <section class="get">
-      <div class="get__title">
-        Удобно получать на емейл уникальные проверенные рецепты,<br>
-        которые дружная команда Tastycookery попробовала сама и рекомендует
-      </div>
-      <form action="#send" method="GET">
-        <button class="btn get__btn">Cтать членом семьи Tastycookery <span class="uppercase">бесплатно</span></button>
-      </form>
-    </section>
-    <!-- /.get -->
-    <section class="reviews">
-      <div class="container2">
-        <h2 class="blockTitle">Отзывы довольных пользователей</h2>
-        <!-- Swiper-->
-        <div class="swiper-container swiper-container-three">
-          <div class="swiper-wrapper swiper-wrapper-three">
-
-            <div class="swiper-slide swiper-slide-slide3 wow slideInLeft" data-wow-delay="1s">
-              <div class="cardReviews reviews__card">
-                <p class="cardReviews__text">После того, как стал участником проекта Tastycookery получает много
-                  простых
-                  рецептов, о которых раньше не задумывался, стал готовить некоторые, семья рада, стали больше
-                  разговаривать во время ужина и хвалить кулинарные таланты Человека1.</p>
-                <div class="cardReviews__person">
-                  <picture>
-                    <source srcset="img/person1.webp" type="image/webp"><img src="img/person1.png" alt="клиент"
-                      class="cardReviews__person-img"></picture>
-                  <div class="cardReviews__person-info">
-                    <div class="cardReviews__person-name">
-                      Дейнерис
-                    </div>
-                    <div class="cardReviews__person-age">
-                      56 лет
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide swiper-slide-slide3 wow slideInUp" data-wow-delay="1s">
-              <div class="cardReviews reviews__card">
-                <p class="cardReviews__text cardReviews__text-text2">Рад, что благодаря простым рецептам может
-                  наслаждаться изысканными блюдами, тратя на приготовление 20 мин в день</p>
-                <div class="cardReviews__person">
-                  <picture>
-                    <source srcset="img/person2.webp" type="image/webp"><img src="img/person2.png" alt="клиент"
-                      class="cardReviews__person-img"></picture>
-                  <div class="cardReviews__person-info">
-                    <div class="cardReviews__person-name">
-                      Тайвин
-                    </div>
-                    <div class="cardReviews__person-age">
-                      43 лет
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide swiper-slide-slide3 wow slideInRight" data-wow-delay="1s">
-              <div class="cardReviews reviews__card">
-                <p class="cardReviews__text cardReviews__text-text3">Довольна, что благодаря рецептам с TC может на
-                  работу брать полезные обеды, что полностью отказалась от офисной неполезной еды и за 2 месяца
-                  похудела
-                  на 3 кг. И очень рекомендует всем использовать рецепты с сайта</p>
-                <div class="cardReviews__person">
-                  <picture>
-                    <source srcset="img/person3.webp" type="image/webp"><img src="img/person3.png" alt="клиент"
-                      class="cardReviews__person-img"></picture>
-                  <div class="cardReviews__person-info">
-                    <div class="cardReviews__person-name">
-                      Серсея
-                    </div>
-                    <div class="cardReviews__person-age">
-                      56 лет
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-    </section>
-    <!-- /.reviews -->
-  </main>
-  <footer class="footer">
-    <div class="container3">
-      <div class="block footer__block">
-        <div class="block__left">
-          <p>Sign up to receive daily manually selected recipes, delicious weekly articles,
-            3-piece sets of slow cooker, vegetarian,
-            and lunch ideas, plus Quick&Easy recipes<br> and Nutrition Value flashcards via email.</p>
-        </div>
-        <div class="send block__right">
-          <form action="send.php" method="POST" class="form send__form" id="send">
-            <div class="input-group">
-              <input type="email" name="userEmail" class="input send__input" id="send-user-email"
-                placeholder="Enter your email" maxlength="30" />
-            </div>
-
-            <button class="btn send__btn ">Sign up</button>
-            <!-- /.button -->
-
-            <div class="input-group">
-              <div class="policy send__policy">
-                <label class="send__policy-label">By signing up I agree to
-                  the terms of the <a href="#" class="policyPrivat">Privacy Policy</a></label>
-              </div>
-            </div>
-            <!-- /.policy -->
-
-          </form>
-        </div>
-      </div>
-
-      <div class="footer__data"><a href="#">© 2014–2018 TastyCookery.com</a></div>
-    </div>
-  </footer>
-  <div class="buttonUp">
-    <span id="button-up">
-      <picture>
-        <source srcset="img/arrow-up_icon-icons.com_73669.svg" type="image/webp"><img
-          src="img/arrow-up_icon-icons.com_73669.svg" alt="Наверх" /></picture>
-    </span>
-  </div>
-</body>
-
-</html>
+<!DOCTYPE html><html lang="ru"><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />  <link rel="stylesheet" href="css/style.min.css">  <link rel="stylesheet" href="css/swiper.min.css" />  <link rel="stylesheet" href="css/animate.css" />  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>  <script src="js/swiper.min.js" defer></script>  <script src="js/jquery.validate.min.js" defer></script>  <script src="js/jquery.mask.min.js" defer></script>  <script src="js/wow.min.js" defer></script>  <script src="js/buttonUp.js" defer></script>  <script src="js/script.min.js" defer></script>  <title>Recipe Box</title></head><body>  <main>    <div class="main">      <div class="container">        <div class="logo main__logo ">          <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo" class="logo__img"></picture>          <a href="index.html">            <div class="lable logo__lable wow flip            " data-wow-delay="0.4s">              <span class="lable__title">TastyCookery</span>              <span class="lable__text">Cook for real</span>            </div>          </a>        </div>        <h1 class="main__title wow bounceInLeft" data-wow-delay="0.4s">Домашние простые рецепты</h1>        <p class="main__text wow bounceInLeft" data-wow-delay="0.6s">Собирайте рецепты в recipe box</p>        <form action="#send" method="GET">          <button class="btn main__btn wow bounceIn" data-wow-delay="1s" type="submit"><span              class="uppercase">Присоединиться <br>к              сообществу</span></button>        </form>      </div>    </div>    <!-- /.main -->    <section class="info">      <div class="container">        <!-- Swiper-->        <div class="swiper-container">          <div class="swiper-wrapper">            <div class="swiper-slide wow zoomIn" data-wow-delay="0.4s">              <div class="cardInfo">                <picture><source srcset="img/info1.webp" type="image/webp"><img src="img/info1.png" alt="Рецепты" class="cardInfo__img"></picture>                <p class="cardInfo__text">Простые домашние<br> рецепты</p>              </div>            </div>            <div class="swiper-slide swiper-slid-slide2 wow zoomIn" data-wow-delay="0.6s">              <div class="cardInfo">                <picture><source srcset="img/info2.webp" type="image/webp"><img src="img/info2.png" alt="Рецепты" class="cardInfo__img cardInfo__img-info2"></picture>                <p class="cardInfo__text cardInfo__text-text2">Статьи о готовке</p>              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="0.8s">              <div class="cardInfo">                <picture><source srcset="img/info3.webp" type="image/webp"><img src="img/info3.png" alt="Рецепты" class="cardInfo__img cardInfo__img-info3"></picture>                <p class="cardInfo__text cardInfo__text-text3">Бесплатная книга рецептов<br> всем подписчикам</p>              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="1s">              <div class="cardInfo">                <picture><source srcset="img/info4.webp" type="image/webp"><img src="img/info4.png" alt="Рецепты" class="cardInfo__img"></picture>                <p class="cardInfo__text cardInfo__text-text4">Собирайте рецепты<br> в recipe box</p>              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="1.2s">              <div class="cardInfo">                <picture><source srcset="img/info5.webp" type="image/webp"><img src="img/info5.png" alt="Рецепты" class="cardInfo__img cardInfo__img-info5"></picture>                <p class="cardInfo__text cardInfo__text-text5">Печать рецептов</p>              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="1.4s">              <div class="cardInfo">                <picture><source srcset="img/info4.webp" type="image/webp"><img src="img/info4.png" alt="Рецепты" class="cardInfo__img"></picture>                <p class="cardInfo__text cardInfo__text-text4">Собирайте рецепты<br> в recipe box</p>              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="1.6s">              <div class="cardInfo">                <picture><source srcset="img/info5.webp" type="image/webp"><img src="img/info5.png" alt="Рецепты" class="cardInfo__img cardInfo__img-info5"></picture>                <p class="cardInfo__text cardInfo__text-text5">Печать рецептов</p>              </div>            </div>          </div>          <!-- Add Pagination -->          <div class="swiper-pagination"></div>        </div>        <!--/.info__slide -->      </div>    </section>    <!-- /.info -->    <section class="question">      <div class="container">        <h2 class="blockTitle">Почему круто быть с нами:</h2>        <!-- Swiper-->        <div class="swiper-container swiper-container-two">          <div class="swiper-wrapper swiper-wrapper-two">            <div class="swiper-slide wow zoomIn" data-wow-delay="0.6s">              <div class="cardQuestion">                <picture><source srcset="img/question1.webp" type="image/webp"><img src="img/question1.png" alt="Рецепты" class="cardQuestion__img"></picture>                <p class="cardQuestion__text">Получать лучшие рецепты по разным категориям              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="0.8s">              <div class="cardQuestion">                <picture><source srcset="img/question2.webp" type="image/webp"><img src="img/question2.png" alt="Рецепты" class="cardQuestion__img"></picture>                <p class="cardQuestion__text">Готовить без лишних усилий<br> и делать из каждого дня<br> не рутинный              </div>            </div>            <div class="swiper-slide wow zoomIn" data-wow-delay="1s">              <div class="cardQuestion">                <picture><source srcset="img/question3.webp" type="image/webp"><img src="img/question3.png" alt="Рецепты" class="cardQuestion__img"></picture>                <p class="cardQuestion__text">Довольные<br>члены семьи              </div>            </div>          </div>          <!-- Add Pagination -->          <div class="swiper-pagination"></div>        </div>      </div>    </section>    <!-- /.question -->    <section class="get">      <div class="get__title">        Удобно получать на емейл уникальные проверенные рецепты,<br>        которые дружная команда Tastycookery попробовала сама и рекомендует      </div>      <form action="#send" method="GET">        <button class="btn get__btn">Cтать членом семьи Tastycookery <span class="uppercase">бесплатно</span></button>      </form>    </section>    <!-- /.get -->    <section class="reviews">      <div class="container2">        <h2 class="blockTitle">Отзывы довольных пользователей</h2>        <!-- Swiper-->        <div class="swiper-container swiper-container-three">          <div class="swiper-wrapper swiper-wrapper-three">            <div class="swiper-slide swiper-slide-slide3 ">              <div class="cardReviews reviews__card">                <p class="cardReviews__text">После того, как стал участником проекта Tastycookery получает много                  простых                  рецептов, о которых раньше не задумывался, стал готовить некоторые, семья рада, стали больше                  разговаривать во время ужина и хвалить кулинарные таланты Человека1.</p>                <div class="cardReviews__person">                  <picture><source srcset="img/person1.webp" type="image/webp"><img src="img/person1.png" alt="клиент" class="cardReviews__person-img"></picture>                  <div class="cardReviews__person-info">                    <div class="cardReviews__person-name">                      Дейнерис                    </div>                    <div class="cardReviews__person-age">                      56 лет                    </div>                  </div>                </div>              </div>            </div>            <div class="swiper-slide swiper-slide-slide3 ">              <div class="cardReviews reviews__card">                <p class="cardReviews__text cardReviews__text-text2">Рад, что благодаря простым рецептам может                  наслаждаться изысканными блюдами, тратя на приготовление 20 мин в день</p>                <div class="cardReviews__person">                  <picture><source srcset="img/person2.webp" type="image/webp"><img src="img/person2.png" alt="клиент" class="cardReviews__person-img"></picture>                  <div class="cardReviews__person-info">                    <div class="cardReviews__person-name">                      Тайвин                    </div>                    <div class="cardReviews__person-age">                      43 лет                    </div>                  </div>                </div>              </div>            </div>            <div class="swiper-slide swiper-slide-slide3 ">              <div class="cardReviews reviews__card">                <p class="cardReviews__text cardReviews__text-text3">Довольна, что благодаря рецептам с TC может на                  работу брать полезные обеды, что полностью отказалась от офисной неполезной еды и за 2 месяца                  похудела                  на 3 кг. И очень рекомендует всем использовать рецепты с сайта</p>                <div class="cardReviews__person">                  <picture><source srcset="img/person3.webp" type="image/webp"><img src="img/person3.png" alt="клиент" class="cardReviews__person-img"></picture>                  <div class="cardReviews__person-info">                    <div class="cardReviews__person-name">                      Серсея                    </div>                    <div class="cardReviews__person-age">                      56 лет                    </div>                  </div>                </div>              </div>            </div>          </div>          <!-- Add Pagination -->          <div class="swiper-pagination"></div>        </div>      </div>    </section>    <!-- /.reviews -->  </main>  <footer class="footer">    <div class="container3">      <div class="block footer__block">        <div class="block__left">          <p>Sign up to receive daily manually selected recipes, delicious weekly articles,            3-piece sets of slow cooker, vegetarian,            and lunch ideas, plus Quick&Easy recipes<br> and Nutrition Value flashcards via email.</p>        </div>        <div class="send block__right">          <form action="send.php" method="POST" class="form send__form" id="send">            <div class="input-group">              <input type="email" name="userEmail" class="input send__input" id="send-user-email"                placeholder="Enter your email" maxlength="30" />            </div>            <button class="btn send__btn ">Sign up</button>            <!-- /.button -->            <div class="input-group">              <div class="policy send__policy">                <label class="send__policy-label">By signing up I agree to                  the terms of the <a href="#" class="policyPrivat">Privacy Policy</a></label>              </div>            </div>            <!-- /.policy -->          </form>        </div>      </div>      <div class="footer__data"><a href="#">© 2014–2018 TastyCookery.com</a></div>    </div>  </footer>  <div class="buttonUp">    <span id="button-up">      <picture><source srcset="img/arrow-up_icon-icons.com_73669.svg" type="image/webp"><img src="img/arrow-up_icon-icons.com_73669.svg" alt="Наверх" /></picture>    </span>  </div></body></html>
